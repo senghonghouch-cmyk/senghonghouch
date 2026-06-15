@@ -1,0 +1,23 @@
+body{
+    font-family: Khmer OS Battambang, Arial, sans-serif;
+}
+nav{
+    margin-top: 20px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #198754;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: 0.ms;
+}
+
+nav a:hover{
+    background-color: #146c43;
+    transform: translateY(-10px);
+}

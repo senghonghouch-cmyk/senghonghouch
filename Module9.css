@@ -1,0 +1,92 @@
+/* Module9.css */
+
+body{
+    font-family: "Khmer OS Battambang", Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: auto;
+    padding: 5px;
+    line-height: 1.5;
+}
+
+h1{
+    text-align: center;
+    background-color: #6ac68a;
+    color: white;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+h2{
+    color: #0056b3;
+    border-left: 6px solid #0056b3;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+h3{
+    color: #0d6efd;
+}
+
+h4{
+    color: #333;
+}
+
+p{
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+ul{
+    background: white;
+    padding: 15px 40px;
+    border-radius: 8px;
+}
+
+li{
+    margin: 5px 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 15px;
+}
+
+th{
+    background-color: #0056b3;
+    color: white;
+    padding: 12px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover{
+    background-color: #dbeafe;
+}
+
+@media(max-width:500px){
+    body{
+        padding: 10px;
+    }
+
+    table{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>មេរៀនទី៣</title>
+    <link rel="stylesheet" href="មេរៀនទី៣.css">
+</head>
+<body>
+    <h1>មេរៀនទី៣ មូលដ្ឋានគ្រឹះ C++</h1>
+    <h2>តើ C++ ជាអ្វី?</h2>
+    <p>C++ គឺជាភាសាកម្មវិធី (Programming Language)
+ដែលប្រើសម្រាប់បង្កើត Software, Game, Application និង System Programs។</p>
+<h2>1. មូលដ្ឋានគ្រឹះ C++</h2>
+<ul>
+    <li>C++ ជាភាសាសរសេរកម្មវិធី។</li>
+    <li>Syntax = ច្បាប់សរសេរកូដ។</li>
+    <li>cout = បង្ហាញទិន្នន័យ។</li>
+    <li>cin = បញ្ចូលទិន្នន័យ។</li>
+    <li>Variables = ផ្ទុកទិន្នន័យ។</li>
+    <li>Data Types = int, float, double, char, string, bool</li>
+    <li>Operators = +, -, *, /, ==, >, <</li>
+    <li>Strings = អក្សរ/អត្ថបទ។</li>
+    <li>Math = sqrt(), pow()</li>
+    <li>Boolean = true, false</li>
+</ul>
+<h2>2. លក្ខខណ្ឌ (Conditions)</h2>
+<ul>
+    <li>if = ពិនិត្យលក្ខខណ្ឌមួយ។</li>
+    <li>if...else = មានជម្រើស 2។</li>
+    <li>else if = លក្ខខណ្ឌច្រើន។</li>
+    <li>switch = ជ្រើសរើសតម្លៃជាច្រើន។</li>
+</ul>
+<h2>3. រង្វិលជុំ (Loops)</h2>
+<ul>
+    <li>while = រត់ពេលលក្ខខណ្ឌពិត។</li>
+    <li>do...while = រត់យ៉ាងតិច 1 ដង។</li>
+    <li>for = រត់ចំនួនដងកំណត់។</li>
+    <li>break = បញ្ឈប់ Loop។</li>
+    <li>continue = រំលងជុំបច្ចុប្បន្ន។</li>
+</ul>
+<h2>4. Arrays</h2>
+<ul>
+    <li>1D Array = បញ្ជីទិន្នន័យមួយជួរ។</li>
+    <li>2D Array = បញ្ជីទិន្នន័យជាតារាង។</li>
+    <li>Array Operations = បន្ថែម, បង្ហាញ, ស្វែងរកទិន្នន័យ។</li>
+</ul>
+<h2>5. Functions</h2>
+<ul>
+    <li>Function = ក្រុមកូដធ្វើការងារមួយ។</li>
+    <li>Parameters = តម្លៃបញ្ចូល។</li>
+    <li>Return = តម្លៃត្រឡប់។</li>
+    <li>Overloading = Function ឈ្មោះដូចគ្នា តែ Parameter ខុសគ្នា។</li>
+    <li>Recursion = Function ហៅខ្លួនឯង។</li>
+    <li>Scope = តំបន់ប្រើប្រាស់ Variable។</li>
+    <li>Lambda = Function ខ្លីៗ។</li>
+</ul>
+<h2>6. Data Types កម្រិតខ្ពស់</h2>
+<ul>
+    <li>struct = ប្រមូល Data ច្រើនប្រភេទ។</li>
+    <li>enum = កំណត់តម្លៃថេរ។</li>
+    <li>Reference (&) = ឈ្មោះផ្សេងសម្រាប់ Variable។</li>
+    <li>Pointer (*) = ផ្ទុក Address របស់ Variable។</li>
+    <li>Dynamic Memory = ប្រើ new និង delete គ្រប់គ្រង Memory។</li>
+</ul>
+<a href="https://www.w3schools.com/cpp/default.asp">គេហទំព័រ: C++</a>
+<h1>មេរៀនទី៣៖ មូលដ្ឋានគ្រឹះ C++</h1>
+
+<h2>១. តើ C++ ជាអ្វី?</h2>
+<p>
+C++ គឺជាភាសាសរសេរកម្មវិធី (Programming Language) ដែលត្រូវបានបង្កើតឡើង
+ដើម្បីអភិវឌ្ឍកម្មវិធីកុំព្យូទ័រ។ C++ ត្រូវបានប្រើសម្រាប់បង្កើត Software,
+Game, Operating System, Mobile Application និងកម្មវិធីផ្សេងៗជាច្រើន។
+ភាសានេះមានល្បឿនលឿន និងមានប្រសិទ្ធភាពខ្ពស់។
+</p>
+
+<h2>២. Syntax</h2>
+<p>
+Syntax គឺជាច្បាប់ ឬរបៀបសរសេរកូដឱ្យបានត្រឹមត្រូវ។
+ប្រសិនបើសរសេរខុសពីច្បាប់ កម្មវិធីនឹងបង្ហាញកំហុស (Error)
+ហើយមិនអាចដំណើរការបានឡើយ។
+</p>
+
+<pre>
+#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; "Hello World";
+    return 0;
+}
+</pre>
+
+<h2>៣. cout</h2>
+<p>
+cout (Character Output) ត្រូវបានប្រើសម្រាប់បង្ហាញទិន្នន័យ
+ឬសារផ្សេងៗទៅលើអេក្រង់។ សញ្ញា << ត្រូវបានប្រើដើម្បីបញ្ជូន
+ទិន្នន័យទៅ cout។
+</p>
+
+<pre>
+cout &lt;&lt; "Welcome to C++";
+cout &lt;&lt; 100;
+</pre>
+
+<h2>៤. cin</h2>
+<p>
+cin (Character Input) ត្រូវបានប្រើសម្រាប់ទទួលទិន្នន័យពីអ្នកប្រើប្រាស់
+តាមរយៈ Keyboard។ សញ្ញា >> ត្រូវបានប្រើដើម្បីផ្ទុកតម្លៃ
+ដែលអ្នកប្រើបានបញ្ចូល។
+</p>
+
+<pre>
+int age;
+cin >> age;
+</pre>
+
+<h2>៥. Variables</h2>
+<p>
+Variable គឺជាទីតាំងមួយនៅក្នុង Memory ដែលប្រើសម្រាប់ផ្ទុកទិន្នន័យ។
+Variable នីមួយៗត្រូវមានឈ្មោះ និងប្រភេទទិន្នន័យច្បាស់លាស់។
+</p>
+
+<pre>
+int age = 20;
+string name = "Dara";
+</pre>
+
+<h2>៦. Data Types</h2>
+<p>
+Data Type គឺជាប្រភេទទិន្នន័យដែល Variable អាចផ្ទុកបាន។
+ការជ្រើសរើស Data Type ត្រឹមត្រូវនឹងជួយឱ្យកម្មវិធីប្រើ Memory
+បានមានប្រសិទ្ធភាព។
+</p>
+
+<table border="1">
+    <tr>
+        <th>Data Type</th>
+        <th>ការប្រើប្រាស់</th>
+        <th>ឧទាហរណ៍</th>
+    </tr>
+    <tr>
+        <td>int</td>
+        <td>ចំនួនគត់</td>
+        <td>10, 50</td>
+    </tr>
+    <tr>
+        <td>float</td>
+        <td>លេខទសភាគ</td>
+        <td>3.14</td>
+    </tr>
+    <tr>
+        <td>double</td>
+        <td>លេខទសភាគមានភាពត្រឹមត្រូវខ្ពស់</td>
+        <td>3.141592</td>
+    </tr>
+    <tr>
+        <td>char</td>
+        <td>អក្សរមួយតួ</td>
+        <td>'A'</td>
+    </tr>
+    <tr>
+        <td>string</td>
+        <td>អត្ថបទ</td>
+        <td>"Cambodia"</td>
+    </tr>
+    <tr>
+        <td>bool</td>
+        <td>តម្លៃពិត ឬមិនពិត</td>
+        <td>true, false</td>
+    </tr>
+</table>
+
+<h2>៧. Operators</h2>
+<p>
+Operators គឺជាសញ្ញាដែលប្រើសម្រាប់ធ្វើប្រតិបត្តិការលើទិន្នន័យ។
+</p>
+
+<h3>Arithmetic Operators</h3>
+<ul>
+    <li>+ បូក</li>
+    <li>- ដក</li>
+    <li>* គុណ</li>
+    <li>/ ចែក</li>
+    <li>% រកសំណល់</li>
+</ul>
+
+<pre>
+int a = 10, b = 3;
+cout << a + b;
+cout << a % b;
+</pre>
+
+<h3>Comparison Operators</h3>
+<ul>
+    <li>== ស្មើ</li>
+    <li>!= មិនស្មើ</li>
+    <li>&gt; ធំជាង</li>
+    <li>&lt; តូចជាង</li>
+    <li>&gt;= ធំជាង ឬស្មើ</li>
+    <li>&lt;= តូចជាង ឬស្មើ</li>
+</ul>
+
+<h2>៨. Strings</h2>
+<p>
+String គឺជាប្រភេទទិន្នន័យដែលប្រើសម្រាប់ផ្ទុកអក្សរ
+ឬអត្ថបទច្រើនតួ។
+</p>
+
+<pre>
+string school = "ABC School";
+cout << school;
+</pre>
+
+<h2>៩. Math Functions</h2>
+<p>
+C++ មានអនុគមន៍គណិតវិទ្យាជាច្រើនដែលស្ថិតនៅក្នុង Library
+&lt;cmath&gt; ។
+</p>
+
+<ul>
+    <li>sqrt() = រកឫសការ៉េ</li>
+    <li>pow() = គណនាស្វ័យគុណ</li>
+</ul>
+
+<pre>
+#include &lt;cmath&gt;
+
+cout << sqrt(25);     // 5
+cout << pow(2, 3);    // 8
+</pre>
+
+<h2>១០. Boolean</h2>
+<p>
+Boolean គឺជាប្រភេទទិន្នន័យដែលមានតម្លៃតែ ២ ប៉ុណ្ណោះ គឺ
+true (ពិត) និង false (មិនពិត)។
+វាត្រូវបានប្រើជាញឹកញាប់នៅក្នុងការសម្រេចចិត្ត
+និងលក្ខខណ្ឌផ្សេងៗ។
+</p>
+
+<pre>
+bool isStudent = true;
+bool hasLicense = false;
+
+cout << isStudent;
+cout << hasLicense;
+</pre>
+
+<h2>សេចក្តីសន្និដ្ឋាន</h2>
+<p>
+មូលដ្ឋានគ្រឹះ C++ រួមមាន Syntax, cout, cin, Variables,
+Data Types, Operators, Strings, Math Functions និង Boolean។
+ការយល់ដឹងពីមេរៀនទាំងនេះ គឺជាជំហានដំបូងដ៏សំខាន់
+សម្រាប់ការសិក្សាភាសា C++ និងការអភិវឌ្ឍកម្មវិធីកុំព្យូទ័រ
+នៅកម្រិតខ្ពស់បន្តទៅមុខទៀត។
+</p>
+</body>
+</html>

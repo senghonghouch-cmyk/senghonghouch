@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="មេរៀនទី Syntax.css">
+</head>
+<style>
+    body{
+    font-family: Khmer OS Battambang, Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    margin: 10px;
+    line-height: 1.5;
+    color: #333;
+    /* width: 300px;
+    height: auto;
+    text-align: center; */
+}
+h1{
+    color: #e2e8ee;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #856404;
+       width: 300px;
+    height: auto;
+    text-align: center;
+
+}
+h2{
+    color: #007bff;
+    border-left: 5px solid green;
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+h3{
+    color: #28a745;
+
+}
+h4{
+    color: #ff6600;
+
+}
+pre{
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 20px;
+    overflow-x: auto;
+    font-family: consolas, monospace;
+    font-size: 14px;
+
+}
+ul{
+    background-color: white;
+    padding: 15px 35px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+li{
+    margin-bottom: 10px;
+
+}
+div{
+    margin: 10px 0;
+
+}
+hr{
+    border: none;
+    border-radius: 2px dashed #ccc;
+    margin: 25px 0;
+
+}
+table{
+    width: 100%;
+    /* border-collapse: collapse; */
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+th{
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: 5px solid #ddd;
+
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 5px solid#ddd;
+
+}
+/* tr:nth-child(even){
+    background-color: #f2f2f2;
+
+} */
+p{
+    background-color: #fff3cd;
+    padding: 10px;
+    border-left: 5px solid#ffc107;
+    border-radius: 20px;
+
+}
+i{
+    color: #856404;
+
+}
+b{
+    color: #dc3545;
+}
+</style>
+<body>
+   <h1>Assignment C++</h1>
+   <h2>Full code C++</h2>
+   <pre>
+#include < iostream >
+using namespace std;
+
+int main() {
+    int n, quantity;
+    string item;
+    double price, total = 0, amount;
+
+    cout << "Enter number of items: ";
+    cin >> n;
+
+    cin.ignore();
+
+    for (int i = 1; i <= n; i++) {
+        cout << "\nItem " << i << endl;
+
+        cout << "Name: ";
+        getline(cin, item);
+
+        cout << "Price: ";
+        cin >> price;
+
+        cout << "Quantity: ";
+        cin >> quantity;
+
+        amount = price * quantity;
+        total += amount;
+
+        cin.ignore();
+    }
+
+    cout << "\nTotal Payment = $" << total << endl;
+
+    return 0;
+}
+   </pre>
+   <h2>ការពន្យល់កូដ C++ ការគិតលុយក្នុង Market</h2>
+   <pre>
+    #include <iostream>
+using namespace std;
+   </pre>
+   <ul>
+    <li>#include <iostream> → ប្រើសម្រាប់ cin និង cout ដើម្បីបញ្ចូល និងបង្ហាញទិន្នន័យ។</li>
+    <li>using namespace std; → ឱ្យយើងអាចប្រើ cout, cin, string ដោយមិនចាំបាច់សរសេរ std::។</li>
+   </ul>
+   <hr>
+   <pre>
+    int main() {
+   </pre>
+   <ul>
+    <li>main() គឺជាមុខងារចម្បងដែលកម្មវិធីចាប់ផ្តើមដំណើរការ។</li>
+   </ul>
+   <hr>
+   <pre>
+    int n, quantity;
+string item;
+double price, total = 0, amount;
+   </pre>
+   <h3>ប្រកាស Variables</h3>
+   <ul>
+    <li>int n → ផ្ទុកចំនួនមុខទំនិញ។</li>
+    <li>int quantity → ផ្ទុកចំនួនទំនិញនីមួយៗ។</li>
+    <li>string item → ផ្ទុកឈ្មោះទំនិញ។</li>
+    <li>double price → ផ្ទុកតម្លៃទំនិញ។</li>
+    <li>double total = 0 → ផ្ទុកប្រាក់សរុបទាំងអស់។</li>
+    <li>double amount → ផ្ទុកតម្លៃសរុបរបស់ទំនិញមួយមុខ។</li>
+   </ul>
+   <hr>
+   <pre>
+    cout << "Enter number of items: ";
+cin >> n;
+   </pre>
+   <ul>
+    <li>បង្ហាញសារ Enter number of items:</li>
+    <li>ទទួលចំនួនមុខទំនិញពីអ្នកប្រើ។</li>
+   </ul>
+   <h4>ឧទាហរណ៍</h4>
+   <pre>
+    Enter number of items: 3
+   </pre>
+   <div>នោះមានន័យថា អ្នកនឹងបញ្ចូលទិន្នន័យទំនិញ ៣ មុខ។</div>
+   <hr>
+   <pre>cin.ignore();</pre>
+   <ul>
+    <li>លុប Enter ដែលនៅសល់ក្នុង cin។</li>
+    <li>ប្រើមុន getline() ដើម្បីកុំឱ្យ getline() រំលងការបញ្ចូល។</li>
+   </ul>
+   <hr>
+   <pre>
+    for (int i = 1; i <= n; i++) {
+   </pre>
+   <ul>
+    <li>for Loop ប្រើសម្រាប់ធ្វើការដដែលៗ។</li>
+    <li>ចាប់ផ្តើមពី i = 1</li>
+    <li>ដំណើរការរហូតដល់ i <= n</li>
+    <li>i++ មានន័យថា បូក ១ រាល់ជុំ។</li>
+    <div>បើ n = 3 Loop នឹងដំណើរការ ៣ ដង។</div>
+   </ul>
+   <hr>
+   <pre>
+    cout << "\nItem " << i << endl;
+   </pre>
+   <div>បង្ហាញលេខរៀងទំនិញ។</div>
+   <h4>ឧទាហរណ៍</h4>
+   <pre>
+Item 1
+Item 2
+Item 3
+   </pre>
+   <hr>
+   <pre>
+cout << "Name: ";
+getline(cin, item);
+   </pre>
+   <ul>
+    <li>ទទួលឈ្មោះទំនិញ។</li>
+    <li>getline() អាចទទួលអក្សរដែលមានដកឃ្លា។</li>
+   </ul>
+   <h4>ឧទាហរណ៍</h4>
+   <pre>Name: Coca Cola</pre>
+   <hr>
+   <pre>
+cout << "Price: ";
+cin >> price;
+   </pre>
+   <div>ទទួលតម្លៃទំនិញ។</div>
+   <h4>ឧទាហរណ៍</h4>
+   <pre>
+    Price: 2.5
+   </pre>
+   <hr>
+   <pre>
+cout << "Quantity: ";
+cin >> quantity;
+   </pre>
+   <div>ទទួលចំនួនទំនិញ។</div>
+   <h4>ឧទាហរណ៍</h4>
+   <pre>Quantity: 4</pre>
+   <hr>
+   <pre>amount = price * quantity;</pre>
+   <div>គណនាតម្លៃសរុបរបស់ទំនិញមួយមុខ។</div>
+   <h4>រូបមន្ត</h4>
+   <pre>amount = តម្លៃ × ចំនួន</pre>
+   <h4>ឧទាហរណ៍</h4>
+   <pre>
+Price = 2.5
+Quantity = 4
+
+amount = 2.5 × 4 = 10
+   </pre>
+   <hr>
+   <pre>total += amount;</pre>
+   <div>បូកតម្លៃទំនិញនីមួយៗទៅក្នុងប្រាក់សរុប។
+ស្មើនឹង</div>
+<pre>total = total + amount;</pre>
+<h4>ឧទាហរណ៍</h4>
+<pre>
+Item 1 = 10$
+Item 2 = 5$
+
+total = 10 + 5 = 15$
+</pre>
+<hr>
+<pre>}</pre>
+<div>បញ្ចប់ for Loop។</div>
+<hr>
+<pre>cout << "\nTotal Payment = $" << total << endl;</pre>
+<div>បង្ហាញប្រាក់សរុបដែលត្រូវបង់។</div>
+<h4>ឧទាហរណ៍</h4>
+<pre>Total Payment = $15</pre>
+<hr>
+<pre>
+return 0;
+}
+</pre>
+<ul>
+    <li>return 0; មានន័យថា កម្មវិធីដំណើរការបានជោគជ័យ។</li>
+    <li>} បញ្ចប់ main()។</li>
+</ul>
+    <h3>ដំណើរការរបស់កម្មវិធី</h3>
+    <pre>
+        Enter number of items: 2
+
+Item 1
+Name: Milk
+Price: 3
+Quantity: 2
+
+Item 2
+Name: Bread
+Price: 1.5
+Quantity: 4
+
+Total Payment = $12
+    </pre>
+    <h3>ការគណនា</h3>
+    <table>
+        <tr>
+            <th>ទំនិញ</th>
+            <th>តម្លៃ</th>
+            <th>ចំនួន</th>
+            <th>សរុប</th>
+        </tr>
+        <tr>
+            <td>Milk</td>
+            <td>3$</td>
+            <td>2</td>
+            <td>6$</td>
+        </tr>
+        <tr>
+            <td>Bread</td>
+            <td>1.5$</td>
+            <td>4</td>
+            <td>6$</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td></td>
+            <td>12$</td>
+        </tr>
+    </table>
+    <p><i><b>សង្ខេប:</b>កម្មវិធីនេះប្រើ Variables, Input/Output (cin, cout), getline(), for Loop និងការគណនាគណិតវិទ្យា ដើម្បីបង្កើតប្រព័ន្ធគិតលុយសាមញ្ញក្នុង Market។</i></p>
+</body>
+</html>

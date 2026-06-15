@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module9</title>
+    <link rel="stylesheet" href="Module9.css">
+</head>
+<body>
+    <h1>Module9: IPv4 Addressing </h1>
+    <p>គោលបំណងមេរៀន (Module Objective)
+គណនាការបែងចែក Subnet របស់ IPv4 ដើម្បីបែងចែកបណ្តាញ (Network) ឱ្យមានប្រសិទ្ធភាព។</p>
+<h2>១. តើ IPv4 ជាអ្វី?</h2>
+    <p>IPv4 (Internet Protocol Version 4) គឺជាប្រព័ន្ធអាសយដ្ឋាន (Addressing System) ដែលប្រើសម្រាប់កំណត់អត្តសញ្ញាណឧបករណ៍នៅលើបណ្ដាញ (Network) និងអ៊ីនធឺណិត។</p>
+    <p>ឧទាហរណ៍ IPv4 Address៖
+        <ul>
+            <li>192.168.1.1</li>
+            <li>172.16.0.1</li>
+            <li>10.0.0.1</li>
+            <li>8.8.8.8</li>
+        </ul>
+    </p>
+    <p>IPv4 មានប្រវែង 32-bit ហើយត្រូវបានបែងចែកជា 4 Octets (មួយ Octet = 8 Bits)។
+
+ឧទាហរណ៍៖
+        <ul>
+            <li>192.168.1.1</li>
+            <li>192   .168   .1   .1</li>
+            <li> 8bit  8bit  8bit  8bit</li>
+        </ul>
+    </p>
+    <h2>២. រចនាសម្ព័ន្ធ IPv4 Address</h2>
+    <h3>IPv4 Address មាន ២ ផ្នែក៖</h3>
+    <h4>1. Network ID</h4>
+    <p>សម្គាល់បណ្ដាញ (Network)។</p>
+    <h4>2. Host ID</h4>
+    <p>សម្គាល់ឧបករណ៍ (Computer, Laptop, Phone, Router) នៅក្នុងបណ្ដាញ។
+ឧទាហរណ៍៖
+<ul>
+    <li>192.168.1.10/24</li>
+    <li>Network ID = 192.168.1</li>
+    <li>Host ID = 10</li>
+</ul>
+</p>
+<h2>៣. Private IP Address</h2>
+<p>Private IP ប្រើសម្រាប់បណ្ដាញខាងក្នុង (LAN)។</p>
+<h3>សង្ខេប</h3>
+<ul>
+    <li>IPv4 មាន 32 Bits</li>
+    <li>IPv4 មាន 4 Octets</li>
+    <li>មាន Network ID និង Host ID</li>
+    <li>Private IP ប្រើក្នុង LAN</li>
+    <li>Public IP ប្រើលើ Internet</li>
+    <li>Subnet Mask ប្រើបែងចែក Network និង Host</li>
+    <li>CIDR Notation ដូចជា /24, /16, /8</li>
+    <li>IPv4 មាន Class A, B, C, D, E</li>
+</ul>
+  <h2>IPv4 Address Classes</h2>
+    <table border="2">
+        <tr>
+            <th>Class</th>
+            <th>Range</th>
+            <th>Default Mask</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>1-126</td>
+            <td>255.0.0.0</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>128-191</td>
+            <td>255.255.0.0</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>192-223</td>
+            <td>255.255.255.0</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>224-239</td>
+            <td>Multicast</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>240-255</td>
+            <td>Research</td>
+        </tr>
+
+    </table>
+<h2>1. រចនាសម្ព័ន្ធ IPv4 Address (IPv4 Address Structure)</h2>
+<h4>គោលបំណង</h4>
+<p>ពិពណ៌នាអំពីរចនាសម្ព័ន្ធ IPv4 Address រួមមាន៖</p>
+<ul>
+    <li>Network Portion</li>
+    <li>Host Portion</li>
+    <li>Subnet Mask</li>
+</ul>
+<h4>IPv4 ជាអ្វី?</h4>
+<p>IPv4 (Internet Protocol Version 4) គឺជាអាសយដ្ឋានដែលប្រើសម្រាប់កំណត់អត្តសញ្ញាណឧបករណ៍នៅលើបណ្តាញ។</p>
+<p>ឧទាហរណ៍៖
+    <ul>
+        <li>192.168.1.10</li>
+    </ul>
+    IPv4 មាន 32 Bits ហើយបែងចែកជា 4 Octets (8 Bits ក្នុងមួយ Octet)។
+    <ul>
+        <li>192 . 168 . 1 . 10</li>
+    </ul>
+</p>
+</body>
+</html>

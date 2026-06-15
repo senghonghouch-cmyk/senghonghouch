@@ -1,0 +1,29 @@
+table{
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+    font-family: Khmer OS Battambang, Arial, sans-serif;
+    text-align: center;
+}
+
+th{
+    background: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+}
+
+th, td{
+    border: 1px solid #3d2626;
+}
+
+tr:nth-child(even){
+    background: #f2f2f2;
+}
+
+tr:hover{
+    background: #8ba5c2;
+}

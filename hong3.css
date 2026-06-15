@@ -1,0 +1,89 @@
+.mydiv{
+    color: blueviolet;
+    padding: 10px;
+    background: rgb(245, 243, 246);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: 5px;
+    border-radius: 10px 10px;
+    
+}
+.h1{
+    color: #ffebcd;
+    background: rgb(195, 111, 111);
+    padding: 5px;
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+    border: 2px solid yellow;
+    border-radius: 50px;
+}
+.p{
+    color: brown;
+    border: 5px solid blueviolet;
+    border-radius: 10 10;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+.p1{
+    color: rgb(12, 53, 16);
+    background: rgb(167, 200, 102);
+    border: 2px solid black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px 30px;
+
+}
+.p2{
+    color: blueviolet;
+    background: yellowgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: 10px;
+    border: 5px solid pink;
+    border-radius: 50px;
+
+}
+.Myimg{
+    border: 10px solid rgb(34, 34, 17);
+    border-radius: 40px;
+    position: relative;
+}
+.Myimg1{
+    width: 300px;
+    height: auto;
+    image-rendering: auto;
+    border: 2px solid rgb(25, 25, 12);
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    display: block;
+    margin: auto;
+    
+}
+.foot{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+}
+nav{
+    background-color: rgb(168, 206, 193);
+    padding: 15px;
+    text-align: center;
+}
+nav a{
+    color: rgb(101, 19, 168);
+    text-decoration: none;
+    margin-right: 20px ;
+  
+}
+
+
+
+    

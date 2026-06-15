@@ -1,0 +1,85 @@
+body{
+    font-family: "Khmer OS Battambang", Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-radius: 20px;
+    text-shadow: 20px 20px 40px gray;
+    padding: 15px;
+    background-color: gold;
+}
+h2{
+    text-align: center;
+    color: darkred;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    width: 80%;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #b87070;
+    padding: 15px;
+    border-radius: 30px;
+   font-family: Khmer OS Batambang, Arial, sans-serif;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+
+}
+nav a:hover{
+    background-color: rgb(155, 155, 74);
+    color: black;
+    border-radius: 50px;
+
+}
+img{
+    display: block;
+    margin: 20px auto;
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: o 4px 10px rgba(0,0,0,0.3);
+
+}
+.p0{
+    color: #b87070;
+    background-color: antiquewhite;
+    padding: 15px;
+    margin: auto;
+    border-radius: 15px;
+
+}
+.img0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.container section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container img{
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+}

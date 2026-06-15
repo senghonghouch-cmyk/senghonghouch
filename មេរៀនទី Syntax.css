@@ -1,0 +1,105 @@
+body{
+    font-family: Khmer OS Battambang, Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    margin: 10px;
+    line-height: 1.5;
+    color: #333;
+    /* width: 300px;
+    height: auto;
+    text-align: center; */
+}
+h1{
+    color: #e2e8ee;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #856404;
+       width: 300px;
+    height: auto;
+    text-align: center;
+
+}
+h2{
+    color: #007bff;
+    border-left: 5px solid green;
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+h3{
+    color: #28a745;
+
+}
+h4{
+    color: #ff6600;
+
+}
+pre{
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 20px;
+    overflow-x: auto;
+    font-family: consolas, monospace;
+    font-size: 14px;
+
+}
+ul{
+    background-color: white;
+    padding: 15px 35px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+li{
+    margin-bottom: 10px;
+
+}
+div{
+    margin: 10px 0;
+
+}
+hr{
+    border: none;
+    border-radius: 2px dashed #ccc;
+    margin: 25px 0;
+
+}
+table{
+    width: 100%;
+    /* border-collapse: collapse; */
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+th{
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: 5px solid #ddd;
+
+}
+td{
+    padding: 10px;
+    text-align: center;
+    border: 5px solid#ddd;
+
+}
+/* tr:nth-child(even){
+    background-color: #f2f2f2;
+
+} */
+p{
+    background-color: #fff3cd;
+    padding: 10px;
+    border-left: 5px solid#ffc107;
+    border-radius: 20px;
+
+}
+i{
+    color: #856404;
+
+}
+b{
+    color: #dc3545;
+}

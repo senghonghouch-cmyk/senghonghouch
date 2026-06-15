@@ -1,0 +1,47 @@
+body{
+    font-family: "Khmer OS Battambang", Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px;
+    margin: auto;
+    border: 2px;
+    border-radius: 100%;
+}
+
+h2{
+    color: #333;
+    margin-top: 20px;
+  
+}
+
+nav{
+    margin-top: 20px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #198754;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: 0.ms;
+}
+
+nav a:hover{
+    background-color: #146c43;
+    transform: translateY(-10px);
+}
+
+u{
+    text-decoration-color: #be34be;
+}

@@ -1,0 +1,57 @@
+nav{
+    color: brown;
+    background: rgb(206, 176, 176);
+    border: 5px solid black;
+    border-radius: 10px 20px;
+    display: block;
+    align-items: center;
+}
+/* nav{
+    color: blue;
+    background: rgb(red, green, blue);
+    border: 5px solid black;
+    border-radius: 10px;
+    display: block;
+    align-items: center;
+} */
+p{
+    color: red;
+    border: 5px solid black;
+    border-radius: 0px;
+}
+h1{
+    color: aqua;
+}
+.box{
+    width: 300px;
+    padding: 20px;
+    background-color: lightblue;
+    border: 2px solid black;
+    margin: 20px;
+}
+.hong{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+    background: gray;
+    border: 5px solid red;
+    border-radius: 10px 10px;
+    text-align: center;
+}
+.gong{color: red;                /* ពណ៌អក្សរ */
+background-color: yellow;  /* ពណ៌ផ្ទៃ */
+font-size: 20px;           /* ទំហំអក្សរ */
+width: 300px;              /* ទទឹង */
+height: 100px;             /* កម្ពស់ */
+margin: 20px;              /* គម្លាតខាងក្រៅ */
+padding: 20px;             /* គម្លាតខាងក្នុង */
+border: 1px solid black;   /* ស៊ុម */
+text-align: center;        /* តម្រឹមអត្ថបទ */}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border: 2px solid black;
+}

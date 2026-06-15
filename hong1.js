@@ -1,0 +1,12 @@
+//@version=6
+indicator("senghong kong", overlay=true)
+ma=ta.sma(close,20)
+plot(ma)
+rsiValue=ta.rsi(close,14)
+plot(rsiValue)
+fast=ta.ema(close,9)
+slow=ta.ema(close,21)
+buy=ta.crossover(fast,slow)
+sell=ta.crossunder(fast,slow)
+plotshape(buy,style=WaveShaperNode.labelup)
+plotshape(sell,style=)

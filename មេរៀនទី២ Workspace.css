@@ -1,0 +1,64 @@
+body{
+    font-family: Khmer OS Battambang, Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 10px;
+    background-color: rgb(206, 201, 211) ;
+    color: rgb(21, 19, 32);
+}
+h1{
+    text-align: center;
+    color: white;
+    background: #007acc;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Khmer OS Moul light, Arial, Helvetica, sans-serif;
+}
+h2{
+    color: #35a628;
+    border-left: 6px solid #c5365a;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+h3{
+    color: #1e1c1a;
+    margin-top: 10px;
+}
+p{
+    text-align: justify;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+ul,
+ol{
+    background-color: aliceblue;
+    padding: 20px 40px;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+li{
+    margin: 10px 0;
+
+}
+li:hover{
+    color: #007acc;
+    transform: translateX(5px);
+    transition: 0.3s;
+}
+@media screen and (max-width: 768px){}
+body{
+    margin: 10px;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 18px;
+}

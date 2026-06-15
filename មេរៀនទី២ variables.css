@@ -1,0 +1,81 @@
+body{
+    font-family: Khmer OS Battambang, Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    margin: 10px;
+    line-height: 1.5;
+    color: #333;
+}
+h1{
+    text-align: center;
+    background-color: blueviolet;
+    color: #f4f6f9;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+h2{
+    color: #007bff;
+    border-left: 6px solid blue;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+h3{
+    color: #28a745;
+
+}
+p{
+    font-size: 18px;
+}
+pre{
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 20px;
+    overflow-x: auto;
+    font-size: 16px;
+
+}
+ul{
+    background-color: #ffffff;
+    padding: 15px 35px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+li{
+    margin: 8px 0;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+th{
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: 5px solid #ddd;
+
+}
+td{
+    padding: 10px;
+    border: 5px solid #e4e4ec;
+    text-align: center;
+
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+
+}
+i b{
+    color: #dc3545;
+}
+.hong{
+    background-color: #fff3cd;
+    border-left: 6px solid #ffc107;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 20px;
+}

@@ -1,0 +1,112 @@
+/* កំណត់ទំព័រទាំងមូល */
+/* body{
+    font-family: "Khmer OS Battambang", Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    line-height: 1.8;
+} */
+/* body{
+    font-family: "Khmer OS Battambang"; Arial, snans-serif;
+} */
+ body{
+    font-family:"Khmer OS Battambang",Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    line-height: 1.5;
+ }
+
+/* ចំណងជើងធំ */
+h1{
+    font-family: "Khmer OS Moul Light",Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #0066cc;
+    border-bottom: 3px solid #0066cc;
+    padding-bottom: 10px;
+}
+
+/* ចំណងជើងរង */
+h2{
+    color: #333;
+    margin-top: 20px;
+}
+
+/* អត្ថបទ */
+p{
+    color: #555;
+    text-align: justify;
+    /* font-family: "Khmer OS Battambang",Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 20px; */
+    
+}
+
+/* បន្ទាត់ */
+hr{
+    border: 1px solid #ccc;
+}
+
+/* រូបភាព */
+img{
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+/* បញ្ជី */
+ul{
+    background: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+
+li{
+    margin: 8px 0;
+}
+
+/* Link */
+a{
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    background-color: #8b9cad;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+}
+/* .a1{
+   display: block; 
+   text-decoration: none;
+} */
+ address{
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.a1{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a1:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+a:hover{
+    background-color: #99d17f;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #72afc8;
+    color: white;
+    border-radius: 10px;
+}
